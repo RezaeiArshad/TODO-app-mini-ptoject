@@ -1,0 +1,186 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    margin-top: 80px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+#close-task-editor { 
+    width: 30px;
+    height: 30px;
+    margin-left: 400px;
+    padding: none;
+    margin-top: -40px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+#close-task-editor svg {
+    width: 30px;
+    height: 30px;
+    margin-left: -7.5px;
+    margin-top: -2px;
+    color: red;
+    box-shadow: 0 0 10px 1px red;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+#close-task-editor svg:hover {
+   transform: scale(1.02);
+   box-shadow: 0 0 10px 2px red;
+}
+
+#title-input {
+    margin: 0px;
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: 0 0 10px 1px black;
+    background-color: beige;
+}
+
+.title-label {
+    margin-top: -80px;
+}
+
+#date-input {
+    width: 250px;
+    padding: 5px;
+    height: 22px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-shadow: 0 0 10px 1px black;
+    background-color: beige;
+}
+
+#description-input {
+    height: 210px;
+    width: 250px;
+    margin-top: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: beige;
+    box-shadow: 0 0 10px 1px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+#submit-btn {
+    margin-top: 40px;
+}
+
+fieldset {
+    text-align: center;
+    width: 800px;
+    height: 420px;
+    margin: 0px auto 20px auto;
+    border-radius: 20px;
+}
+
+.big-btn {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(215, 215, 215);
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 550;
+    transition: all 0.3s ease;
+}
+
+.big-btn:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 15px 1px limegreen;
+   background-color: limegreen;
+   color: white;
+}
+
+#task-container {
+    display: grid;
+    grid-template-rows: repeat(3 , 1fr);
+    grid-template-columns: repeat(4 , 1fr);
+    row-gap: 20px;
+    column-gap: 15px;
+    padding: 20px 10px 10px 10px;
+}
+
+#task-div {
+    background-color: beige;
+    box-shadow: 0 0 10px 0.5px black;
+    padding: 5px;
+    box-sizing: content-box;
+    text-align: left;
+    border-radius: 15px;
+    width: 177.5px;
+    height: 106px;
+}
+
+#task-div p {
+    color: rgb(79, 79, 79);
+}
+
+.delete-task-btn-container{
+    margin-left: 7px;
+    color: rgb(76, 76, 76);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px 1px black;
+    transition: all 0.2s ease;
+}
+
+.delete-task-btn-container:hover {
+    color: black;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px 1px red;
+}
+
+.edit-task-btn-container {
+    margin-left: 7px;
+    color: rgb(76, 76, 76);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px 1px black;
+    transition: all 0.2s ease;
+}
+
+.edit-task-btn-container:hover {
+    color: black;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px 2px rgb(220, 220, 1);
+}
+
+dialog {
+    border-radius: 10px;
+}
+
+dialog button {
+    width: 80px;
+}
