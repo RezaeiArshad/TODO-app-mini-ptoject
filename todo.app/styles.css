@@ -37,7 +37,7 @@ label {
     width: 30px;
     height: 30px;
     margin-left: -7.5px;
-    margin-top: -2px;
+    margin-top: 60px;
     color: red;
     box-shadow: 0 0 10px 1px red;
     border-radius: 50%;
@@ -62,7 +62,7 @@ label {
 }
 
 .title-label {
-    margin-top: -80px;
+    margin-top: -44px;
 }
 
 #date-input {
@@ -94,7 +94,12 @@ label {
 }
 
 #submit-btn {
-    margin-top: 40px;
+    margin-top: 50px;
+    background-color: yellow;
+}
+
+#submit-btn:hover {
+    background-color: limegreen;
 }
 
 fieldset {
@@ -132,7 +137,7 @@ fieldset {
     padding: 20px 10px 10px 10px;
 }
 
-#task-div {
+.task-div {
     background-color: beige;
     box-shadow: 0 0 10px 0.5px black;
     padding: 5px;
@@ -143,7 +148,7 @@ fieldset {
     height: 106px;
 }
 
-#task-div p {
+.task-div p {
     color: rgb(79, 79, 79);
 }
 
